@@ -1,0 +1,12 @@
+SMA**
+EMA**
+VWAP
+MACD**
+STOCH**
+RSI**
+ADX
+CCI
+AROON
+BBANDS**
+AB
+OBV**
