@@ -1,16 +1,13 @@
 # **Botley Fool**
 ## An Anlysis of Technical Indicators Used for Trading - Analyzed Across Different Markets to Determine Which May or May Not Provide the Best Indication
 
-
 ## Trading Strategies:
 * Buy five shares in three companies across three markets - Healthcare, Oil & Gas, and Technology.
 * Utilize Alpaca to buy the different positions and create the portfolio.
 * Choose the most commonly used indicators then run an alysis.
 * Use the AlphaVantage API to retrieve technical indicator performance for each position in our portfolio at an hourly interval.
 
-
 ## Most Commonnly Used Technical Indicators:
-
 ### OSCILLATORS: Construct high and low bands between two extreme values, and then builds a trend indicator that fluctuates within these bounds.
 1. Traders use the trend indicator to discover short-term overbought or oversold conditions.
 	1. When the value of the oscillator approaches the upper extreme value, analysts consider the asset to be overbought.
@@ -38,17 +35,14 @@
 	* The sensitivity of the oscillator to market movements is reducible by adjusting that time period or by taking a MOVING AVERAGE of the result.
 	* It is used to generate overbought and oversold trading signals, utilizing a 0–100 bounded range of values.
 
-
-### Top 5 Most Commonly Used Oscillating Indicators:
+## Top 5 Most Commonly Used Oscillating Indicators:
 * MACD
 * RSI
 * BBANDS
 * SMA/EMA
 * OBV
 
-
-### Factors used in Oscillators
-			
+## Factors used in Oscillators			
 * MOMENTUM: Indicates if prices are increasing at an increasing rate or decreasing at a decreasing rate; look for uptrend, then use RSI to determine entry or exit.
 * MOVING AVERAGES: When price crosses above MOVING AVERAGE trade long; when price crosses below MOVING AVERAGE trade short.
 	* For example, if a stock rises above its 200-day MOVING AVERAGE, that might be taken as a bullish signal.
