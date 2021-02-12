@@ -1,22 +1,27 @@
-# Botley_Fool
+# **Botley Fool**
 ## An Anlysis of Technical Indicators Used for Trading - Analyzed Across Different Markets to Determine Which May or May Not Provide the Best Indication
 
 
-### Trading Strategies:
+## Trading Strategies:
 * Buy five shares in three companies across three markets - Healthcare, Oil & Gas, and Technology
 * Utilize Alpaca to buy the different positions and create the portfolio
 * Use the AlphaVantage API to retrieve technical indicator performance for each position in our portfolio at an hourly interval
 
 
 ### Most Commonnly Used Technical Indicators:
-*OSCILLATORS: constructs high and low bands between two extreme values, and then builds a trend indicator that fluctuates within these bounds.
-		*Traders use the trend indicator to discover short-term overbought or oversold conditions.
-		*When the value of the oscillator approaches the upper extreme value, technical analysts interpret that information to mean that the asset is overbought, and as it approaches the lower extreme, technicians consider the asset to be oversold.
-	*MACD: When the MACD is positive, the short-term average is located above the long-term average. This an indication of upward MOMENTUM. When the short-term average is below the long-term average, this is a sign that the MOMENTUM is downward.
+####OSCILLATORS:
+1. Constructs high and low bands between two extreme values, and then builds a trend indicator that fluctuates within these bounds.
+	1. Traders use the trend indicator to discover short-term overbought or oversold conditions.
+		1. When the value of the oscillator approaches the upper extreme value, analysts consider the asset to be overbought.
+		1. When the value of the oscillator approaches the lower extreme value, analysts consider the asset to be oversold.
+	
+* MACD: The MACD is calculated by subtracting the 26-period exponential moving average (EMA) from the 12-period EMA. The result of that calculation is the MACD
+	* When MACD is positive, the short-term average is located above the long-term average; this is an indication of upward MOMENTUM.
+	* When MACD is negative, the short-term average is located below the long-term average; this is an indication of downward MOMENTUM.
 		    	*Many traders will also watch for a move above or below the zero line. A move above zero signals a buy, while a cross below zero signals to sell.
 		    	*Based on the assumption that the tendency of the price of a traded asset is to revert to a trend line.
 			*To discover the trend line, look at the MOVING AVERAGE of asset prices over different time periods, i.e. 50/100/200 days.
-			*The MACD is calculated by subtracting the 26-period exponential moving average (EMA) from the 12-period EMA. The result of that calculation is the MACD line.
+			* line.
 	*RSI: Compares the size of recent gains to recent losses to determine an asset's price MOMENTUM, either up or down.
 			*The RSI was designed to indicate whether a security is overbought or oversold in relation to recent price levels.
 			*The RSI is calculated using average price gains and losses over a given period of time.
