@@ -33,6 +33,9 @@ MANIFEST
 *.manifest
 *.spec
 
+# Force cannot overwrite blakealgo file
+*Blake/Trade_Algo.ipynb
+*Trade_Algo.ipynb
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
