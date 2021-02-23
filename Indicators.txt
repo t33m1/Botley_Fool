@@ -3,7 +3,5 @@ Main Indicators we will target for accuracy/relevancy in each industry and overa
 SMA
 EMA
 MACD
-STOCH
 RSI
 BBANDS
-OBV
